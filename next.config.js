@@ -1,10 +1,11 @@
+// next.config.js
 module.exports = {
-    // ... outras configurações ...
-    exportPathMap: async function () {
-      return {
-        '/': { page: '/' },
-      };
-    },
-    // ... outras configurações ...
-  };
-  
+  async exportPathMap() {
+    // Sua lógica de exportação de mapa aqui
+    return {
+      '/': { page: '/' },
+      '/about': { page: '/about' },
+      // ...
+    };
+  },
+};
