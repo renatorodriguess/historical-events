@@ -7,6 +7,7 @@ import { Icon } from 'leaflet'
 import eventsData from './HistoricalEvents'
 import FlyToMarker from './FlyToMarker'
 import Filter from './Filter'
+import L from 'leaflet'
 
 export interface HistoricalEvent{
     id:number,
@@ -24,11 +25,11 @@ const fullStar = <i className='fa-solid fa-star' style={{
 }}></i>
 
 function MapApp() {
-    const icon: Icon = new Icon({
+    const icon: Icon = typeof window !== 'undefined' ? new Icon({
         iconUrl: "marker.svg",
         iconSize: [25,41],
         iconAnchor: [12, 41],
-    });
+    }): new Icon({ iconUrl: '', iconSize: [0, 0] });
 
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
     const [activeEvent, setActiveEvent] = useState<HistoricalEvent | null>(null);

@@ -549,13 +549,6 @@ const eventsData: HistoricalEvent[] = [
     category: "Ciência"
   },
   {
-    id: 76,
-    title: "A Primeira Exposição da Royal Academy",
-    description: "A Royal Academy of Arts realizou sua primeira exposição em 1769, promovendo as artes do design na Grã-Bretanha por meio de educação e exposições.",
-    position: [51.5091, -0.1393],
-    category: "Arte"
-  },
-  {
     id: 77,
     title: "Sobre a Origem das Espécies de Charles Darwin",
     description: "O livro de Charles Darwin, publicado em 1859, introduziu a teoria científica da evolução por seleção natural.",
