@@ -47,7 +47,7 @@ function MapApp() {
 
   return (
     <div className='content'>
-      <div className='flex flex-col w-full h-full'>
+      <div className='flex flex-col w-4/5 h-full'>
             <div className='h-12'></div>
           <MapContainer center={defaultPosition} zoom={13} className='map-container'>
           <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
@@ -84,19 +84,25 @@ function MapApp() {
           )}
         </MapContainer>    
       </div>
-
       <div className="liked-events">
         <h2 className="liked-events_title">
-            <i className='fa-solid fa-star'></i>Eventos Favoritos
+            <i className="fa-solid fa-star"></i> Eventos Favoritos
         </h2>
         <ul>
-            {favorites.map((event)=> {
-                return <li key={event.id}></li>
-            })}
+            {
+                favorites.map((id) => {
+                    return eventsData.find((event) => event.id === id);
+                }).map((event) => {
+                    return (
+                        <li className='liked-events_event' key={event?.id}>
+                        <h3>{event?.title}</h3>
+                        </li>
+                    )
+                })}
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
 export default MapApp

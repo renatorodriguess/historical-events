@@ -28,6 +28,9 @@ body{
   padding: 2rem;
   width: 100%;
   height: 100%;
+
+  display: flex;
+  gap: 1.5rem;
 }
 
 .map-container{
@@ -36,4 +39,47 @@ body{
   position: relative;
   border-radius: var(--brad-2);
   border: 2px solid var(--border-color);
+}
+
+.liked-events {
+  flex: 1;
+  padding: 1rem 2rem;
+  border-radius: var(--brad-2);
+  background-color: var(--events--bg);
+  box-shadow: var(--box-shadow);
+  border: 2px solid var(--border-color);
+
+  color: var(--color--white);
+  overflow-y: auto;
+
+  &_title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    i {
+      color: #fdc401;
+    }
+  }
+
+  &_event{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--brad-1);
+    background-color: var(--border-color-2);
+    box-shadow: var(--box-shadow);
+    font-weight: 500;
+
+    color: var(--color--white);
+
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
 }
