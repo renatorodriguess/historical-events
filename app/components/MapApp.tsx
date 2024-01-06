@@ -25,9 +25,8 @@ const fullStar = <i className='fa-solid fa-star' style={{
 }}></i>
 
 function MapApp() {
-  const [icon, setIcon] = useState<Icon | null>(null);
+  const [icon, setIcon] = useState<Icon | DivIcon | null>(null);
     useEffect(() => {
-    // Verifique se está sendo executado no lado do cliente antes de criar o ícone Leaflet
     if (typeof window !== 'undefined') {
       const leafletIcon = new Icon({
         iconUrl: "marker.svg",
