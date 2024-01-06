@@ -43,7 +43,17 @@ function MapApp() {
     
         setFavorites(updatedFavorites);
         localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
-      };
+    };
+
+    const handleListItemClick = (eventId: number) => {
+
+        const event = eventsData.find((event) => event.id === eventId)
+
+        if(event) {
+
+            setActiveEvent(event)
+        }
+    };
 
   return (
     <div className='content'>
@@ -94,7 +104,11 @@ function MapApp() {
                     return eventsData.find((event) => event.id === id);
                 }).map((event) => {
                     return (
-                        <li className='liked-events_event' key={event?.id}>
+                        <li className='liked-events_event' key={event?.id}
+                        onClick={() => {
+                            handleListItemClick(event?.id as number)
+                        }}
+                        >
                         <h3>{event?.title}</h3>
                         </li>
                     )
