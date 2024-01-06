@@ -7,12 +7,13 @@ interface Props {
 function Filter({setSelectedCategory}: Props) {
 
     const categories = [
-        "War",
-        "Art",
-        "Science",
-        "Politics",
-        "Religion",
-        "Sports",
+        "Guerra",
+        "Arte",
+        "Ciência",
+        "Política",
+        "Religião",
+        "Esporte",
+        "Outro",
         
     ];
 
