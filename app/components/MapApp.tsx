@@ -69,7 +69,7 @@ function MapApp() {
           <MapContainer center={defaultPosition} zoom={13} className='map-container'>
           <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
           {
-            eventsData.filter((event) =>!selectedCategory || event.category === selectedCategory).map((event) =>{
+            eventsData.filter((event) => !selectedCategory || event.category === selectedCategory).map((event) =>{
                 return <Marker key={event.id} position={event.position} icon={icon} eventHandlers={{
                     click: () => {
                         setActiveEvent(event)
