@@ -8,7 +8,7 @@ const Map = dynamic(() =>import('./components/MapApp'), { ssr: false })
 export default function Home() {
   return (
    <main className="w-full h-full">
-      <MapApp />
+      <Map />
    </main>
   )
 }
