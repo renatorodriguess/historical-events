@@ -9,6 +9,7 @@ import eventsData from './HistoricalEvents';
 import FlyToMarker from './FlyToMarker';
 import Filter from './Filter';
 
+
 export interface HistoricalEvent {
   id: number;
   title: string;
