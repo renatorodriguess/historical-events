@@ -9,7 +9,6 @@ import eventsData from './HistoricalEvents';
 import FlyToMarker from './FlyToMarker';
 import Filter from './Filter';
 
-// Definindo a interface HistoricalEvent
 export interface HistoricalEvent {
   id: number;
   title: string;
@@ -33,7 +32,7 @@ function MapApp() {
         iconSize: [25, 41],
         iconAnchor: [12, 41],
       });
-
+  
       setIcon(leafletIcon);
     }
   }, []);
@@ -84,9 +83,8 @@ function MapApp() {
             ))}
           {activeEvent && (
             <Popup position={activeEvent.position}>
-              <div className='popup-inner'>
-                <h2 className='popup-inner_title'>{activeEvent.title}</h2>
-              </div>
+            <div className='popup-inner'>
+              <h2 className='popup-inner_title'>{activeEvent.title}</h2>
               <p className='popup-inner_description'>{activeEvent.description}</p>
               {typeof window !== 'undefined' && (
                 <button
@@ -100,7 +98,9 @@ function MapApp() {
                   )}
                 </button>
               )}
-            </Popup>
+            </div>
+          </Popup>
+          
           )}
 
           {activeEvent && <FlyToMarker position={activeEvent.position} zoomLevel={15} />}
