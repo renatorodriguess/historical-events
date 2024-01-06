@@ -191,10 +191,10 @@ const eventsData: HistoricalEvent[] = [
   },
   {
     id: 25,
-    title: "Invenção da Imprensa",
-    description: "Johannes Gutenberg inventou a imprensa em Mainz, Alemanha, por volta de 1440, revolucionando a disseminação de informações.",
-    position: [49.9929, 8.2473],
-    category: "Ciência",
+    title: "Teoria da Relatividade Geral de Einstein",
+    description: "Em 1915, Albert Einstein formulou a Teoria da Relatividade Geral, descrevendo a gravidade como a curvatura do espaço-tempo. Esta teoria revolucionou a física e teve implicações profundas na compreensão da gravidade.",
+    position: [52.5200, 13.4050],
+    category: "Ciência"
   },
   {
     id: 26,
@@ -382,17 +382,17 @@ const eventsData: HistoricalEvent[] = [
   },
   {
     id: 52,
-    title: "Batalha de Ayacucho",
-    description: "A Batalha de Ayacucho, em 9 de dezembro de 1824, foi um encontro militar decisivo durante a Guerra de Independência do Peru. Ela efetivamente encerrou o domínio espanhol na América do Sul.",
-    position: [-13.1588, -74.2239],
-    category: "Guerra"
+  title: "Expedição ao Monte Everest",
+  description: "O Monte Everest, a montanha mais alta do mundo, tem sido um desafio para alpinistas desde a primeira bem-sucedida subida em 1953.",
+  position: [27.9881, 86.9250],
+  category: "Outro"
   },
   {
     id: 53,
-    title: "Guerra de Independência da Argentina",
-    description: "Iniciada em 1810 com a Revolução de Maio, a Argentina travou uma série de batalhas contra o domínio espanhol, culminando na independência em 1818.",
-    position: [-34.6037, -58.3816],
-    category: "Guerra"
+    title: "Esculturas Moai",
+    description: "As esculturas Moai, erguidas na Ilha de Páscoa, Chile, entre os séculos XIII e XVI, representam figuras humanas esculpidas em grandes blocos de pedra vulcânica. São um exemplo único de escultura polinésia.",
+    position: [-27.1127, -109.3497],
+  category: "Ciência"
   },
   {
     id: 54,
@@ -480,9 +480,9 @@ const eventsData: HistoricalEvent[] = [
   },
   {
     id: 66,
-    title: "Emancipação dos Servos",
-    description: "Em 1861, o Czar Alexandre II emitiu a Reforma da Emancipação, libertando milhões de servos e alterando profundamente a sociedade russa.",
-    position: [55.7558, 37.6173],
+    title: "Independência da Argélia",
+    description: "Em 1962, a Argélia conquistou a independência da França, encerrando anos de guerra de independência e colonização.",
+    position: [28.0339, 1.6596],
     category: "Política"
   },
   {
@@ -613,31 +613,32 @@ const eventsData: HistoricalEvent[] = [
   },
   {
     id: 86,
-    title: "Conquista da Ceuta",
-    description: "A conquista de Ceuta em 1415 pelos portugueses foi um marco nas explorações marítimas, inaugurando a era dos descobrimentos portugueses.",
-    position: [35.8992, -5.3195],
-    category: "Guerra"
-  },
-  {
-    id: 87,
     title: "Descobrimento do Caminho Marítimo para as Índias",
     description: "Em 1498, o explorador português Vasco da Gama descobriu o caminho marítimo para as Índias, estabelecendo uma rota que revolucionou o comércio e as viagens marítimas.",
     position: [38.7223, -9.1393],
     category: "Descobrimento"
   },
   {
-    id: 88,
+    id: 87,
     title: "Fundação da Academia de Ciências Físicas, Matemáticas e Naturais",
     description: "A Academia de Ciências Físicas, Matemáticas e Naturais da Venezuela foi fundada em 1829, desempenhando um papel crucial no avanço da ciência no país.",
     position: [10.4991, -66.8819],
     category: "Ciência"
   },
+
   {
-    id: 89,
+    id: 88,
     title: "Luta pela Igualdade Racial de Jesse Owens",
     description: "Nas Olimpíadas de Berlim em 1936, Jesse Owens, um atleta afro-americano, conquistou quatro medalhas de ouro, desafiando as ideias racistas de superioridade racial.",
     position: [52.5145, 13.2394],
     category: "Esporte"
+  },
+  {
+    id: 89,
+    title: "Descoberta de Machu Picchu",
+    description: "Machu Picchu, a antiga cidade inca no topo dos Andes, foi redescoberta em 1911 pelo explorador Hiram Bingham. A descoberta revelou uma cidade bem preservada e se tornou um marco arqueológico importante.",
+    position: [-13.1631, -72.5450],
+    category: "Outro"
   },
   {
     id: 90,
@@ -662,9 +663,9 @@ const eventsData: HistoricalEvent[] = [
   },
   {
     id: 93,
-    title: "Tênis de Mesa na Diplomacia - China e Estados Unidos",
-    description: "O pingue-pongue desempenhou um papel crucial na diplomacia entre China e Estados Unidos durante a Guerra Fria, levando à famosa 'Diplomacia do Ping Pong'.",
-    position: [39.9042, 116.4074],
+    title: "O Arremesso de Michael Jordan em 1998",
+    description: "Na final da NBA de 1998, Michael Jordan fez um arremesso decisivo nos últimos segundos para dar o título ao Chicago Bulls.",
+    position: [41.8781, -87.6298],
     category: "Esporte"
   },
   {
@@ -683,9 +684,9 @@ const eventsData: HistoricalEvent[] = [
   },
   {
     id: 96,
-    title: "O Milagre no Gelo - Estados Unidos vs. União Soviética",
-    description: "No hóquei no gelo dos Jogos Olímpicos de Inverno de 1980, a equipe dos Estados Unidos, composta por amadores, venceu a poderosa União Soviética, em um evento conhecido como o 'Milagre no Gelo'.",
-    position: [40.7128, -74.006],
+    title: "O Salto de Javier Sotomayor em 1993",
+    description: "Em 1993, Javier Sotomayor de Cuba quebrou o recorde mundial de salto em altura, que ainda permanece até hoje.",
+    position: [23.1575, -82.3166],
     category: "Esporte"
   },
   {
