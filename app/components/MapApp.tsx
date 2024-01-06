@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import "leaflet/dist/leaflet.css"
 import { Icon } from 'leaflet'
@@ -25,19 +25,12 @@ const fullStar = <i className='fa-solid fa-star' style={{
 }}></i>
 
 function MapApp() {
-  const [icon, setIcon] = useState<Icon | DivIcon | null>(null);
-    useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const leafletIcon = new Icon({
+  
+    const icon: Icon = typeof window !== 'undefined' ? new Icon({
         iconUrl: "marker.svg",
-        iconSize: [25, 41],
+        iconSize: [25,41],
         iconAnchor: [12, 41],
-      });
-
-      setIcon(leafletIcon);
-    }
-  }, []); 
-    
+    }): new Icon({ iconUrl: '', iconSize: [0, 0] });
 
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
     const [activeEvent, setActiveEvent] = useState<HistoricalEvent | null>(null);
