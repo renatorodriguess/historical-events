@@ -1,4 +1,5 @@
-// Importando somente o necessário de 'leaflet'
+'use client'
+
 import { Icon, IconOptions, DivIcon } from 'leaflet';
 
 import React, { useState, useEffect } from 'react';
