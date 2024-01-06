@@ -1,11 +1,8 @@
-// next.config.js
-module.exports = {
-  async generateStaticParams() {
-    // Sua lógica de exportação de mapa aqui
-    return {
-      '/': { page: '/' },
-      '/about': { page: '/about' },
-      // ...
-    };
-  },
-};
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  /* config options here */
+}
+ 
+module.exports = nextConfig
