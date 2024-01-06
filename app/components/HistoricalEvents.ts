@@ -542,273 +542,266 @@ const eventsData: HistoricalEvent[] = [
     category: "Ciência"
   },
   {
-    id: 75,
-    title: "Fundação da Royal Society",
-    description: "A Royal Society, uma sociedade de eminentes cientistas, recebeu uma carta real do Rei Charles II em 1660.",
-    position: [51.5058, -0.1374],
-    category: "Ciência"
-  },
-  {
-    id: 77,
+    id: 76,
     title: "Sobre a Origem das Espécies de Charles Darwin",
     description: "O livro de Charles Darwin, publicado em 1859, introduziu a teoria científica da evolução por seleção natural.",
     position: [51.5118, -0.1445],
     category: "Ciência"
   },
   {
-    id: 78,
-    title: "Abertura da Tate Gallery",
-    description: "A Tate Gallery, hoje conhecida como Tate Britain, foi inaugurada em 1897 e hoje é uma das galerias de arte mais importantes do Reino Unido.",
-    position: [51.4911, -0.1278],
+    id: 77,
+    title: "Abertura da Galeria Nacional de Arte em Tóquio",
+    description: "Em 1949, foi inaugurada a Galeria Nacional de Arte em Tóquio, Japão, exibindo uma impressionante coleção de obras de artistas japoneses e internacionais. A galeria tornou-se um importante centro cultural no país.",
+    position: [35.6895, 139.6917],
     category: "Arte"
   },
   {
-    id: 79,
+    id: 78,
     title: "Independência da Bolívia",
     description: "A Bolívia declarou sua independência da Espanha em 6 de agosto de 1825, marcando o surgimento do Estado Plurinacional da Bolívia.",
     position: [-16.5000, -68.1500],
     category: "Política"
   },
   {
-    id: 80,
+    id: 79,
     title: "Descobrimento da Cidade Perdida",
     description: "A Cidade Perdida, construída pelos povos indígenas Tayrona, foi redescoberta em 1972, revelando uma antiga cidade pré-colombiana nas montanhas da Colômbia.",
     position: [11.0369, -73.8990],
     category: "Outro"
   },
   {
-    id: 81,
+    id: 80,
     title: "Assinatura do Tratado de Paz de Loja",
     description: "O Tratado de Paz de Loja foi assinado em 1860 entre o Equador e o Peru, encerrando hostilidades e estabelecendo as fronteiras entre os dois países.",
     position: [-3.9931, -79.2045],
     category: "Política"
   },
   {
-    id: 82,
+    id: 81,
     title: "Guerra do Paraguai",
     description: "A Guerra do Paraguai, travada de 1864 a 1870, envolveu o Paraguai contra a Tríplice Aliança (Brasil, Argentina e Uruguai), resultando em significativas perdas humanas e territoriais para o Paraguai.",
     position: [-23.4425, -58.4438],
     category: "Guerra"
   },
   {
-    id: 83,
+    id: 82,
     title: "Descobrimento das Cataratas do Iguaçu",
     description: "As majestosas Cataratas do Iguaçu foram descobertas por Álvar Núñez Cabeza de Vaca em 1542, revelando uma das maravilhas naturais do mundo.",
     position: [-25.6953, -54.4367],
     category: "Outro"
   },
   {
-    id: 84,
+    id: 83,
     title: "Guerra da Coreia",
     description: "A Guerra da Coreia ocorreu de 1950 a 1953, envolvendo a Coreia do Norte (apoiada pela China e pela União Soviética) e a Coreia do Sul (apoiada pelos Estados Unidos e outras nações), resultando em um armistício e a divisão da península coreana.",
     position: [38.4237, 127.8393],
     category: "Guerra"
   },
   {
-    id: 85,
+    id: 84,
     title: "Guerra Civil Espanhola",
     description: "A Guerra Civil Espanhola ocorreu de 1936 a 1939, sendo um conflito ideológico entre republicanos e nacionalistas liderados por Francisco Franco, resultando na ascensão do regime franquista.",
     position: [40.4637, -3.7492],
     category: "Guerra"
   },
   {
-    id: 86,
+    id: 85,
     title: "Descobrimento do Brasil",
     description: "Em 22 de abril de 1500, o navegador português Pedro Álvares Cabral chegou ao Brasil, marcando o descobrimento oficial do país pelos europeus.",
     position: [-15.7801, -47.9292],
     category: "Outro"
   },
   {
-    id: 87,
+    id: 86,
     title: "Conquista da Ceuta",
     description: "A conquista de Ceuta em 1415 pelos portugueses foi um marco nas explorações marítimas, inaugurando a era dos descobrimentos portugueses.",
     position: [35.8992, -5.3195],
     category: "Guerra"
   },
   {
-    id: 88,
+    id: 87,
     title: "Descobrimento do Caminho Marítimo para as Índias",
     description: "Em 1498, o explorador português Vasco da Gama descobriu o caminho marítimo para as Índias, estabelecendo uma rota que revolucionou o comércio e as viagens marítimas.",
     position: [38.7223, -9.1393],
     category: "Descobrimento"
   },
   {
-    id: 89,
+    id: 88,
     title: "Fundação da Academia de Ciências Físicas, Matemáticas e Naturais",
     description: "A Academia de Ciências Físicas, Matemáticas e Naturais da Venezuela foi fundada em 1829, desempenhando um papel crucial no avanço da ciência no país.",
     position: [10.4991, -66.8819],
     category: "Ciência"
   },
   {
-    id: 90,
+    id: 89,
     title: "Luta pela Igualdade Racial de Jesse Owens",
     description: "Nas Olimpíadas de Berlim em 1936, Jesse Owens, um atleta afro-americano, conquistou quatro medalhas de ouro, desafiando as ideias racistas de superioridade racial.",
     position: [52.5145, 13.2394],
     category: "Esporte"
   },
   {
-    id: 91,
+    id: 90,
     title: "Muhammad Ali vs. Joe Frazier - 'Thrilla in Manila'",
     description: "A luta épica entre Muhammad Ali e Joe Frazier em 1975, conhecida como 'Thrilla in Manila', é considerada uma das maiores lutas de boxe da história.",
     position: [14.5896, 120.9811],
     category: "Esporte"
   },
   {
-    id: 92,
+    id: 91,
     title: "A 'Mão de Deus' de Diego Maradona",
     description: "Na Copa do Mundo de 1986, Diego Maradona marcou um gol icônico com a mão, conhecido como a 'Mão de Deus', durante a partida entre Argentina e Inglaterra.",
     position: [19.4326, -99.1332],
     category: "Esporte"
   },
   {
-    id: 93,
+    id: 92,
     title: "Roger Bannister - A Quebra da Barreira dos 4 Minutos na Milha",
     description: "Em 1954, Roger Bannister tornou-se o primeiro homem a correr uma milha em menos de 4 minutos, um feito que redefiniu os limites da corrida de meio-fundo.",
     position: [51.7563, -1.259],
     category: "Esporte"
   },
   {
-    id: 94,
+    id: 93,
     title: "Tênis de Mesa na Diplomacia - China e Estados Unidos",
     description: "O pingue-pongue desempenhou um papel crucial na diplomacia entre China e Estados Unidos durante a Guerra Fria, levando à famosa 'Diplomacia do Ping Pong'.",
     position: [39.9042, 116.4074],
     category: "Esporte"
   },
   {
-    id: 95,
+    id: 94,
     title: "A Corrida de Jesse Owens em 1936",
     description: "Nas Olimpíadas de Berlim, Jesse Owens conquistou quatro medalhas de ouro, desafiando a ideologia nazista de superioridade racial de Adolf Hitler.",
     position: [52.5145, 13.2394],
     category: "Esporte"
   },
   {
-    id: 96,
+    id: 95,
     title: "LeBron James e sua Impactante Carreira na NBA",
     description: "A carreira de LeBron James na NBA não apenas redefiniu o basquete, mas também destacou seu ativismo social, impactando positivamente as comunidades.",
     position: [34.043, -118.2673],
     category: "Esporte"
   },
   {
-    id: 97,
+    id: 96,
     title: "O Milagre no Gelo - Estados Unidos vs. União Soviética",
     description: "No hóquei no gelo dos Jogos Olímpicos de Inverno de 1980, a equipe dos Estados Unidos, composta por amadores, venceu a poderosa União Soviética, em um evento conhecido como o 'Milagre no Gelo'.",
     position: [40.7128, -74.006],
     category: "Esporte"
   },
   {
-    id: 98,
+    id: 97,
     title: "A Lenda de Pelé no Futebol",
     description: "Pelé, o 'Rei do Futebol', marcou história com suas conquistas e habilidades extraordinárias, sendo considerado um dos maiores jogadores de futebol de todos os tempos.",
     position: [-23.5505, -46.6333],
     category: "Esporte"
   },
   {
-    id: 99,
+    id: 98,
     title: "Usain Bolt e os Recordes Mundiais",
     description: "Usain Bolt, o velocista jamaicano, quebrou recordes mundiais nos 100m e 200m, tornando-se uma lenda do atletismo e o homem mais rápido do mundo.",
     position: [17.9714, -76.792],
     category: "Esporte"
   },
   {
-    id: 126,
+    id: 99,
     title: "A Noite Estrelada de Vincent van Gogh",
     description: "A icônica pintura de Vincent van Gogh, 'A Noite Estrelada', é conhecida por suas pinceladas intensas e representa um dos pontos altos do expressionismo.",
     position: [48.8647, 2.349],
     category: "Arte"
   },
   {
-    id: 127,
+    id: 100,
     title: "A Criação de Adão de Michelangelo",
     description: "O afresco no teto da Capela Sistina, 'A Criação de Adão' de Michelangelo, é uma representação poderosa da criação do homem, com a famosa cena do toque divino.",
     position: [41.9029, 12.4534],
     category: "Arte"
   },
   {
-    id: 128,
+    id: 101,
     title: "A Última Ceia de Leonardo da Vinci",
     description: "Leonardo da Vinci's 'A Última Ceia' é uma obra-prima renascentista que retrata o momento dramático da última ceia de Jesus com seus apóstolos.",
     position: [45.4642, 9.191],
     category: "Arte"
   },
   {
-    id: 129,
+    id: 102,
     title: "O Beijo de Gustav Klimt",
     description: "Gustav Klimt's 'O Beijo' é uma pintura simbolista que representa o amor e a união, caracterizada por padrões ornamentados e detalhes dourados distintivos.",
     position: [48.1858, 16.3117],
     category: "Arte"
   },
   {
-    id: 130,
+    id: 103,
     title: "A Persistência da Memória de Salvador Dalí",
     description: "A famosa pintura surrealista de Salvador Dalí, 'A Persistência da Memória', apresenta relógios derretendo em um cenário onírico, explorando a natureza do tempo.",
     position: [41.9836, 2.8143],
     category: "Arte"
   },
   {
-    id: 131,
+    id: 104,
     title: "O Grito de Edvard Munch",
     description: "A obra-prima expressionista de Edvard Munch, 'O Grito', é uma representação intensa da angústia humana, capturando emoções universais com seu estilo vibrante.",
     position: [59.9139, 10.7522],
     category: "Arte"
   },
   {
-    id: 133,
+    id: 105,
     title: "O Monte Sinai e os Dez Mandamentos",
     description: "O Monte Sinai, associado aos Dez Mandamentos dados a Moisés, é um local sagrado no judaísmo, cristianismo e islamismo.",
     position: [28.5395, 33.9759],
     category: "Religião"
   },
   {
-    id: 134,
+    id: 106,
     title: "A Peregrinação a Meca",
     description: "A peregrinação a Meca, conhecida como Hajj, é um dos Cinco Pilares do Islã e é um dever religioso que todo muçulmano adulto deve cumprir, se possível.",
     position: [21.389, 39.8579],
     category: "Religião"
   },
   {
-    id: 135,
+    id: 107,
     title: "O Templo de Jerusalém",
     description: "O Templo de Jerusalém, especialmente o Segundo Templo, desempenhou um papel crucial nas tradições religiosas judaicas e foi destruído duas vezes na história.",
     position: [31.7784, 35.2299],
     category: "Religião"
   },
   {
-    id: 136,
+    id: 108,
     title: "O Santo Sudário de Turim",
     description: "O Santo Sudário é uma peça de linho que, segundo a tradição cristã, teria envolvido o corpo de Jesus após a crucificação, tornando-se um objeto de devoção.",
     position: [45.0703, 7.6869],
     category: "Religião"
   },
   {
-    id: 137,
+    id: 109,
     title: "O Muro das Lamentações",
     description: "O Muro das Lamentações, em Jerusalém, é um local sagrado para o judaísmo, sendo os restos remanescentes do Segundo Templo e um local de oração e reflexão.",
     position: [31.7767, 35.2345],
     category: "Religião"
   },
   {
-    id: 138,
+    id: 110,
     title: "O Nascimento de Buda em Lumbini",
     description: "Lumbini, no Nepal, é o local tradicional do nascimento de Siddhartha Gautama, que mais tarde se tornou Buda, o fundador do budismo.",
     position: [27.4712, 83.2834],
     category: "Religião"
   },
   {
-    id: 139,
+    id: 111,
     title: "A Basílica de São Pedro",
     description: "A Basílica de São Pedro, no Vaticano, é um dos principais locais de peregrinação cristã, sendo o maior templo cristão do mundo.",
     position: [41.9022, 12.4534],
     category: "Religião"
   },
   {
-    id: 140,
+    id: 112,
     title: "O Templo Dourado de Amritsar",
     description: "O Templo Dourado, ou Harmandir Sahib, é o local mais sagrado do siquismo, situado em Amritsar, Índia, e é conhecido por sua beleza arquitetônica.",
     position: [31.6204, 74.8765],
     category: "Religião"
   },
   {
-    id: 141,
+    id: 113,
     title: "A Peregrinação a Santiago de Compostela",
     description: "A Peregrinação a Santiago de Compostela, na Espanha, é uma jornada religiosa tradicionalmente associada ao sepulcro de Santiago, um dos apóstolos de Jesus.",
     position: [42.8806, -8.5456],
