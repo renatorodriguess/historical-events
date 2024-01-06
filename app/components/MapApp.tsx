@@ -88,7 +88,7 @@ function MapApp() {
             <p className='popup-inner_description'>
                 {activeEvent.description}
             </p>
-            <button className='popup-inner_button'
+            {typeof window !== 'undefined' && (<button className='popup-inner_button'
             onClick={() => handleFavoriteClick(activeEvent.id)}
             >
             {favorites.includes(activeEvent.id) ? (
@@ -96,7 +96,8 @@ function MapApp() {
                 ) : (
                   <span>{emptyStar} Favoritar</span>
                 )}
-            </button>
+            </button>)}
+            
         </Popup>
           )}
 
