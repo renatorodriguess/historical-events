@@ -608,7 +608,7 @@ const eventsData: HistoricalEvent[] = [
     id: 85,
     title: "Descobrimento do Brasil",
     description: "Em 22 de abril de 1500, o navegador português Pedro Álvares Cabral chegou ao Brasil, marcando o descobrimento oficial do país pelos europeus.",
-    position: [-15.7801, -47.9292],
+    position: [-16.4667, -39.1833],
     category: "Outro"
   },
   {
