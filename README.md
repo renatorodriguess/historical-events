@@ -52,7 +52,7 @@
 
 ![product-screenshot](https://i.postimg.cc/0QrwL9Hk/imagem-2024-01-12-220518330.png)
 
-The DevBooks is a project that represents my passion for the code and the books. Developed in React and Next.js, this project is a interative landing page about programming books.
+The Historical Events project provides a relaxed approach to exploring the world in a fun way. Be curious and discover every corner, every point, enjoying this unique experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,11 +71,14 @@ The DevBooks is a project that represents my passion for the code and the books.
 ## What I learn
 This project was a good challenge to improve my skills and challenge myself. 
 
-👨‍🚀 The use of Next.js has allowed for more streamlined and efficient handling of server-side rendering and client-side navigation, contributing to a smoother overall user experience.
+👨‍🚀 Incorporating Next.js provided a more streamlined and efficient approach to server-side rendering and client-side navigation, resulting in a smoother and more optimized overall user experience.
 
-⭐ Through this project, I've deepened my expertise in TypeScript, enabling more robust and type-safe code structures.
+⭐ In this project, I significantly expanded my TypeScript proficiency, allowing me to create more robust and secure code structures. Additionally, I deepened my understanding of advanced practices, such as advanced type manipulation, complex interfaces, and efficient use of TypeScript ecosystem resources.
+This enabled me to develop more scalable and resilient solutions.
 
-🎨 With this project a learn how to do a good use of the TailwindCSS to create eficient styles that gives scalability and smooth adaptation to design changes as the project progressed.
+🎨 This project will offer the opportunity to acquire skills in the effective use of Sass, aiming to create efficient styles. This will allow for remarkable scalability and a smooth transition in the face of design changes as the project evolves.
+
+🪐 I acquired skills in effectively using the Leaflet library to develop interactive maps. This tool offers a lightweight and flexible approach to integrating customizable maps into websites, enabling the addition of markers, informative pop-ups, vector layers, and interactive features such as zooming and dragging.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -135,7 +138,7 @@ Project Link: [Vercel](https://historicalevents-project.vercel.app)
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Sass.com]: https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwindcss&logoColor=blue
-[Sass-url]: https://tailwindcss.com
+[Sass.com]: https://img.shields.io/badge/Sass-000000?style=for-the-badge&logo=sass&logoColor=pink
+[Sass-url]: https://sass-lang.com/
 [Typescript.org]: https://img.shields.io/badge/Typescript-000000?style=for-the-badge&logo=typescript&logoColor=blue
 [Typescript-url]: https://www.typescriptlang.org/
